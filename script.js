@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Maula Ya Salli - Sami Yusuf ft. Qasida Burda Shareef ( Slowed & Reverb)]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Maher Zain - Rahmatun Lil’Alameen (Official Music Video) ماهر زين - رحمةٌ للعالمين ]", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Maher Zain - Ya Nabi Salam Alayka (Arabic) ｜ ماهر زين - يا نبي سلام عليك ｜ Official Music Video]", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "HUMOOD - KUN ANTA (كن أنت) - [VOCALS ONLY  SLOWED  REVERB]]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Coke Studio Special ｜ Asma-ul-Husna ｜ The 99 Names ｜ Atif Aslam", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Allah Hu Allah Hu | Atif Aslam | Ramzan 2024", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Muhammad Nabina (Perfect Version) | Slowed + Reverb | Arabic Nasheed", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Maula Ya Salli", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Rahmatun Lil’Alameen", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Ya Nabi Salam Alayka", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "KUN ANTA (كن أنت)", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Asma-ul-Husna ｜ The 99 Names", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Allah Hu Allah Hu", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Muhammad Nabina" filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
     {songName: "Sami Yusuf Hasbi Rabbi", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tajdar-e-Haram | Atif Aslam | Coke Studio Season 8 ", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Coke Studio Season 12 | Wohi Khuda Hai | Atif Aslam", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Tajdar-e-Haram", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Wohi Khuda Hai, filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
